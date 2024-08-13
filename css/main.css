@@ -1,57 +1,4 @@
-/* =================================================================== 
- *  Imminent Main Stylesheet
- *  Template Ver. 1.0.0
- *  09-19-2019
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # base style overrides
- *    ## links 
- *  # typography & general theme styles 
- *    ## Lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## Spacing
- *  # preloader
- *  # forms
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *    ## additional typo styles
- *    ## skillbars
- *    ## alert box
- *  # site header
- *    ## header logo
- *    ## header email 
- *  # intro
- *    ## intro slides
- *    ## intro particles 
- *    ## grid overlay
- *    ## intro content
- *    ## intro content text
- *    ## intro content bottom
- *    ## intro content counter
- *    ## intro content notify
- *    ## modal
- *    ## intro social
- *    ## intro scroll
- *    ## animate intro content
- *    ## intro animations
- *  # info section
- *    ## tabs
- *    ## copyright
- *    ## go top
- *
- * =================================================================== */
 
-
-
-/* ===================================================================
- * # base style overrides 
- *
- * ------------------------------------------------------------------- */
 html {
   font-size: 10px;
 }
@@ -81,10 +28,6 @@ body {
   position: relative;
 }
 
-
-/* ------------------------------------------------------------------- 
- * ## links 
- * ------------------------------------------------------------------- */
 a {
   color: #8dc63f;
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
@@ -103,10 +46,7 @@ a:active {
 
 
 
-/* ===================================================================
- * # typography & general theme styles
- * 
- * ------------------------------------------------------------------- */
+
 h1,
 h2,
 h3,
@@ -407,9 +347,7 @@ hr {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Lists 
- * ------------------------------------------------------------------- */
+
 ol {
   list-style: decimal;
 }
@@ -468,9 +406,7 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## responsive video container
- * ------------------------------------------------------------------- */
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -490,9 +426,7 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## floated image
- * ------------------------------------------------------------------- */
+
 img.h-pull-right {
   margin: 1.2rem 0 1.2rem 2.8rem;
 }
@@ -502,9 +436,7 @@ img.h-pull-left {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## tables
- * ------------------------------------------------------------------- */
+
 table {
   border-width: 0;
   width: 100%;
@@ -542,9 +474,7 @@ td:last-child {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Spacing
- * ------------------------------------------------------------------- */
+
 button,
 .btn {
   margin-bottom: 1.6rem;
@@ -573,10 +503,7 @@ form,
 
 
 
-/* ===================================================================
- * # preloader
- *
- * ------------------------------------------------------------------- */
+
 #preloader {
   position: fixed;
   top: 0;
@@ -626,7 +553,7 @@ form,
   left: -15px;
 }
 
-/* dots jump */
+
 .dots-jump>div {
   -webkit-animation: dots-jump 1.2s infinite ease;
   animation: dots-jump 1.2s infinite ease;
@@ -671,7 +598,7 @@ form,
 
 }
 
-/* dots fade */
+
 .dots-fade>div {
   -webkit-animation: dots-fade 1.6s infinite ease;
   animation: dots-fade 1.6s infinite ease;
@@ -716,7 +643,7 @@ form,
 
 }
 
-/* dots pulse */
+
 .dots-pulse>div {
   -webkit-animation: dots-pulse 1.2s infinite ease;
   animation: dots-pulse 1.2s infinite ease;
@@ -769,10 +696,7 @@ form,
 
 
 
-/* ===================================================================
- * # forms
- *
- * ------------------------------------------------------------------- */
+
 fieldset {
   border: none;
 }
@@ -895,44 +819,42 @@ label>input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Style Placeholder Text
- * ------------------------------------------------------------------- */
+
 ::-webkit-input-placeholder {
 
-  /* WebKit, Blink, Edge */
+ 
   color: #8c8c8c;
 }
 
 :-moz-placeholder {
 
-  /* Mozilla Firefox 4 to 18 */
+ 
   color: #8c8c8c;
   opacity: 1;
 }
 
 ::-moz-placeholder {
 
-  /* Mozilla Firefox 19+ */
+ 
   color: #8c8c8c;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
 
-  /* Internet Explorer 10-11 */
+ 
   color: #8c8c8c;
 }
 
 ::-ms-input-placeholder {
 
-  /* Microsoft Edge */
+ 
   color: #8c8c8c;
 }
 
 ::placeholder {
 
-  /* Most modern browsers support this now. */
+ 
   color: #8c8c8c;
 }
 
@@ -941,9 +863,7 @@ label>input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Change Autocomplete styles in Chrome
- * ------------------------------------------------------------------- */
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus input:-webkit-autofill,
@@ -958,10 +878,7 @@ select:-webkit-autofill:focus {
 
 
 
-/* ===================================================================
- * # buttons
- *
- * ------------------------------------------------------------------- */
+
 .btn,
 button,
 input[type="submit"],
@@ -1006,8 +923,7 @@ input[type="button"]:focus {
   outline: 0;
 }
 
-/* button primary
- * ------------------------------------------------- */
+
 .btn.btn--primary,
 button.btn--primary,
 input[type="submit"].btn--primary,
@@ -1032,8 +948,7 @@ input[type="button"].btn--primary:focus {
   border-color: #000000;
 }
 
-/* button modifiers
- * ------------------------------------------------- */
+
 .btn.h-full-width,
 button.h-full-width {
   width: 100%;
@@ -1087,15 +1002,10 @@ input::-moz-focus-inner {
 
 
 
-/* =================================================================== 
- * # additional components
- *
- * ------------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------------------- 
- * ## additional typo styles
- * ------------------------------------------------------------------- */
+
+
 .drop-cap:first-letter {
   float: left;
   font-family: "DM Serif Display", serif;
@@ -1108,8 +1018,7 @@ input::-moz-focus-inner {
   color: #000000;
 }
 
-/* line definition style 
- * ----------------------------------------------- */
+
 .lining dt,
 .lining dd {
   display: inline;
@@ -1135,8 +1044,7 @@ input::-moz-focus-inner {
   margin-left: -0.2em;
 }
 
-/* dictionary definition style 
- * ----------------------------------------------- */
+
 .dictionary-style dt {
   display: inline;
   counter-reset: definitions;
@@ -1249,9 +1157,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## skillbars
- * ------------------------------------------------------------------- */
+
 .skill-bars {
   list-style: none;
   margin: 6.8rem 0 3.2rem;
@@ -1392,9 +1298,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## alert box
- * ------------------------------------------------------------------- */
+
 .alert-box {
   padding: 2.4rem 4rem 2.4rem 3.2rem;
   position: relative;
@@ -1479,10 +1383,7 @@ input::-moz-focus-inner {
 
 
 
-/* ===================================================================
- * # site header
- *
- * ------------------------------------------------------------------- */
+
 .s-header {
   z-index: 100;
   width: 100%;
@@ -1493,9 +1394,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## header logo
- * ------------------------------------------------------------------- */
+
 .header-logo {
   z-index: 101;
   display: inline-block;
@@ -1522,9 +1421,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## header email
- * ------------------------------------------------------------------- */
+
 .header-email {
   font-size: 1.5rem;
   line-height: 3.2rem;
@@ -1571,10 +1468,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * header
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width:1100px) {
   .header-logo {
     right: 4rem;
@@ -1591,18 +1485,12 @@ input::-moz-focus-inner {
     top: 1.6rem;
   }
 
-  /* .header-logo img {
-    width: auto;
-    height: 100px;
-  } */
+ 
 
 }
 
 @media screen and (max-width:600px) {
-  /* .header-logo img {
-    width: 120px;
-    height: 19px;
-  } */
+ 
 
 }
 
@@ -1632,10 +1520,7 @@ input::-moz-focus-inner {
 
 
 
-/* ===================================================================
- * # intro
- *
- * ------------------------------------------------------------------- */
+
 .s-intro {
   width: 100%;
   height: 100vh;
@@ -1692,9 +1577,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro slides
- * ------------------------------------------------------------------- */
+
 .intro-slider {
   position: absolute;
   top: 0;
@@ -1760,9 +1643,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro particles 
- * ------------------------------------------------------------------- */
+
 .intro-particles {
   position: absolute;
   top: 0;
@@ -1784,9 +1665,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## grid overlay
- * ------------------------------------------------------------------- */
+
 .grid-overlay {
   z-index: 1;
   display: block;
@@ -1831,9 +1710,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro content
- * ------------------------------------------------------------------- */
+
 .intro-content {
   z-index: 2;
   height: 100%;
@@ -1846,9 +1723,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro content text
- * ------------------------------------------------------------------- */
+
 .intro-content__text h3 {
   display: inline-block;
   font-family: "Gothic A1", sans-serif;
@@ -1887,9 +1762,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro content bottom
- * ------------------------------------------------------------------- */
+
 .intro-content__bottom {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -1906,9 +1779,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro content counter
- * ------------------------------------------------------------------- */
+
 .intro-content__counter-wrap {
   margin-right: 8rem;
 }
@@ -1950,9 +1821,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro content notify
- * ------------------------------------------------------------------- */
+
 .intro-content__notify button {
   z-index: 2;
   font-size: 1rem;
@@ -1998,9 +1867,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## modal
- * ------------------------------------------------------------------- */
+
 .modal {
   z-index: 400;
   height: 100%;
@@ -2109,9 +1976,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro social
- * ------------------------------------------------------------------- */
+
 .intro-social {
   z-index: 2;
   list-style: none;
@@ -2157,9 +2022,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## intro scroll
- * ------------------------------------------------------------------- */
+
 .intro-scroll {
   z-index: 2;
   line-height: 12px;
@@ -2200,9 +2063,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## animate intro content
- * ------------------------------------------------------------------- */
+
 html.ss-preload .intro-content__text,
 html.ss-preload .intro-content__bottom {
   opacity: 0;
@@ -2238,11 +2099,9 @@ html.no-csstransitions .intro-content__bottom {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## intro animations 
- * ------------------------------------------------------------------- */
 
-/* fade in */
+
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -2277,7 +2136,7 @@ html.no-csstransitions .intro-content__bottom {
 
 }
 
-/* fade in left */
+
 @-webkit-keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -2312,7 +2171,7 @@ html.no-csstransitions .intro-content__bottom {
 
 }
 
-/* fade out */
+
 @-webkit-keyframes fadeOut {
   from {
     opacity: 1;
@@ -2344,10 +2203,7 @@ html.no-csstransitions .intro-content__bottom {
 }
 
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * intro
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width:1800px) {
   .intro-content__text h1 {
     font-size: 7.3rem;
@@ -2553,10 +2409,7 @@ html.no-csstransitions .intro-content__bottom {
 
 
 
-/* ===================================================================
- * # info section
- *
- * ------------------------------------------------------------------- */
+
 .s-info {
   padding-top: 16rem;
   padding-bottom: 8rem;
@@ -2582,22 +2435,6 @@ html.no-csstransitions .intro-content__bottom {
   left: 50%;
   top: 0;
 }
-
-/* .s-info::before {
-  display: block;
-  content: "";
-  width: 55%;
-  height: 65%;
-  background-color: #ffffff;
-  opacity: .5;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: contain;
-  background-image: url(../images/av-logo.png);
-  position: absolute;
-  right: 0;
-  bottom: 0;
-} */
 
 @media screen and (max-width: 768px) {
   .s-info::before {
@@ -2638,12 +2475,9 @@ html.no-csstransitions .intro-content__bottom {
 }
 
 
-/* -------------------------------------------------------------------
- * ## tabs
- * ------------------------------------------------------------------- */
 
-/* tabs navigation
- * -------------------------------------- */
+
+
 .tab-nav {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -2688,16 +2522,14 @@ html.no-csstransitions .intro-content__bottom {
   position: relative;
 }
 
-/* tab content
- * -------------------------------------- */
+
 .tab-content {
   margin-top: 6.4rem;
   padding-right: 25vw;
   position: relative;
 }
 
-/* services listing
- * --------------------------------------- */
+
 .services-list {
   margin-top: 4rem;
   counter-reset: ctr;
@@ -2720,8 +2552,7 @@ html.no-csstransitions .intro-content__bottom {
   color: #8dc63f;
 }
 
-/* link list
- * -------------------------------------- */
+
 .link-list {
   list-style: none;
   margin-left: 0;
@@ -2741,8 +2572,7 @@ html.no-csstransitions .intro-content__bottom {
   color: #8dc63f;
 }
 
-/* tab contact bottom
- * -------------------------------------- */
+
 .contact-email {
   display: inline-block;
   font-family: "Gothic A1", sans-serif;
@@ -2788,9 +2618,7 @@ html.no-csstransitions .intro-content__bottom {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## copyright
- * ------------------------------------------------------------------- */
+
 .ss-copyright {
   z-index: 2;
   position: relative;
@@ -2812,9 +2640,7 @@ html.no-csstransitions .intro-content__bottom {
   display: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## go top
- * ------------------------------------------------------------------- */
+
 .ss-go-top {
   z-index: 2;
   position: absolute;
@@ -2854,10 +2680,7 @@ html.no-csstransitions .intro-content__bottom {
 }
 
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * info
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width:1200px) {
   .tab-content {
     padding-right: 15vw;
@@ -2969,4 +2792,3 @@ html.no-csstransitions .intro-content__bottom {
 
 }
 
-/*# sourceMappingURL=main.css.map */
